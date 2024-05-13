@@ -3,6 +3,12 @@
 ## Linear B
 Linear B is the earliest known written form of ancient Greek. It first arose in roughly 1400 B.C. in the Late Bronze Age, before abruptly disappearing from the historical record 200 years later with the collapse of Mycenaean civilization. Lost from memory for over 3000 years, its tablets were finally recovered at the beginning of the 20th century from the ruins of Knossos in Crete, and deciphered by Michael Ventris in 1953. 
 
+![Example of Linear B Tablet](Linear%20B%20Example%20Tablet.jpg)
+
+Image Credit @ [National Archaeological Museum](https://www.namuseum.gr/en/monthly_artefact/a-versatile-mycenaean-scribe/),
+Prehistoric Collection, Inv.no. Π7671 (13098) (MY Oe 106).
+Provenance: Mycenae. “House of the Oil Merchant”.
+
 ## Computer Vision and the Study of Ancient Languages 
 In recent years, a number of ancient languages have benefitted from the potential offered by computer vision to automate manual, labour intensive tasks such as transcription and translation, and to generate new insights and perspectives into long debated areas of research. Linear B, however, has largely remained untouched in this activity. 
 
@@ -29,11 +35,11 @@ Using this dataset, this project also presents an image classification model bas
 
 ## How to Use
 ### Dataset
-The full dataset used in this project is contained here. There are 60 classes in total, and significant class imbalance in the dataset, with the largest class (“ja”) containing 351 samples, and the smallest class (“ju”) containing just 16 samples. The mean number of samples per class is 131. 
+The full dataset used in this project is contained [here](). There are 60 classes in total, and significant class imbalance in the dataset, with the largest class (“ja”) containing 351 samples, and the smallest class (“ju”) containing just 16 samples. The mean number of samples per class is 131. 
 
 The scope of this dataset is limited to Linear B's core syllabograms (symbols that refer to combination sounds, e.g. "ka" or "te"). A small number of syllabograms whose values are complex or uknown, ideograms (shorthand symbols for specific words or concepts), numbers and other elements of writing system are not included. 
 
 ### Models
-The models were developed, trained and tested in Google Colab – this colab file can be accessed here. The models and summary view of their outputs can be accessed here. 
+The models were developed, trained and tested in Google Colab – this colab file can be accessed [here](Code/augmented_run.ipynb). The models and summary view of their outputs can be accessed [here](Models%20and%20Outputs). 
 
-The process behind the construction of the dataset and models, and a detailed analysis of the models’ results can be reviewed here in the accompanying paper, which was presented as an MSc thesis. 
+The process behind the construction of the dataset and models, and a detailed analysis of the models’ results can be reviewed [here](Paper/Dissertation%20-%20FINAL.pdf) in the accompanying paper, which was presented as an MSc thesis. 
