@@ -29,13 +29,11 @@ Using this dataset, this project also presents an image classification model bas
 
 ## How to Use
 ### Dataset
-The full dataset used in this project is contained here. There are 60 classes in total, and significant class imbalance in the dataset, with the largest class (“ja”) containing 351 samples, and the smallest class (“ju”) containing just 16 samples. The mean number of samples per class is 131. To use the data for image classification, it can be downloaded and split into training, test and validation files using the code here. 
+The full dataset used in this project is contained here. There are 60 classes in total, and significant class imbalance in the dataset, with the largest class (“ja”) containing 351 samples, and the smallest class (“ju”) containing just 16 samples. The mean number of samples per class is 131. 
 
 The scope of this dataset is limited to Linear B's core syllabograms (symbols that refer to combination sounds, e.g. "ka" or "te"). A small number of syllabograms whose values are complex or uknown, ideograms (shorthand symbols for specific words or concepts), numbers and other elements of writing system are not included. 
 
 ### Models
-The models were developed, trained and tested in Google Colab – this colab file can be accessed here. 
-
-The models and summary view of their outputs can be accessed here. These models can be downloaded and tested via the colab file referenced above. 
+The models were developed, trained and tested in Google Colab – this colab file can be accessed here. The models and summary view of their outputs can be accessed here. 
 
 The process behind the construction of the dataset and models, and a detailed analysis of the models’ results can be reviewed here in the accompanying paper, which was presented as an MSc thesis. 
